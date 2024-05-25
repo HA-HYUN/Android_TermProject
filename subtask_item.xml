@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_subtask_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- 세부 과제 체크박스 -->
+    <CheckBox
+        android:id="@+id/checkbox_subtask_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- 세부 과제 텍스트 -->
+    <TextView
+        android:id="@+id/text_view_subtask_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:hint="Subtask Detail"
+        android:textSize="20sp"/>
+
+</LinearLayout>
